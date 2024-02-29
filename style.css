@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    background: white;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    flex: 20%;
+    /* border: 1px solid red; */
+    text-align: left;
+    margin-left: 10%;
+
+}
+
+.logo h1{
+    font-family: 'Permanent Marker', cursive;
+    color: #180f4a;
+    font-size: 34px;
+}
+.menu{
+    flex:70%;
+    /* border: 1px solid green; CTRT+K+C */
+text-align: right;
+padding: 20px;
+
+
+}
+
+.menu a{
+    color: #180f4a;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+
+}
+
+/*mudei o rosa do site, sendo diferente ao que estava no video*/
+.menu a:hover{
+    color: #ff00dd;
+    border-top: solid #180f4a;
+}
+
+#botao{
+    background: #180f4a;
+    padding: 10px 25px;
+    color: white;
+    border-radius:5px ;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background: #ff00dd;
+
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline{
+    flex: 40%;
+    margin-left: 10%;
+    /* border:  1px solid black; */
+
+}
+
+.headline h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4a;
+    padding: 0;
+    margin: 0;
+}
+.headline p{
+    color: gray;
+    text-align: left;
+
+}
+.contact-btn{
+    display: inline-block;
+    background: #ff00dd;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.contact-btn:hover{
+background: #180f4a;
+
+}
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid pink; */
+    text-align: center;
+}
+section{
+    display: inline-block;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive; ;
+    font-weight: bold;
+    color: #180f4a;
+}
+
+.serviços{
+    display: inline-block;
+    margin-top: 5%;
+
+}
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff00dd;
+    border-radius:10px ;
+    cursor: pointer;
+}
+
+.texto-oculto{
+    display: none;
+
+}
+
+.card:hover{
+    background: #ff00dd;
+    color: white;
+    padding:40px ;
+
+}
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+.card:hover .texto-oculto{
+display: block;
+}
+
+footer{
+    margin-top: 100px;
+    height: 400px;
+    /* fazer Degradê */
+    background-image: linear-gradient(180deg,#180f4a,#090422,black);
+    text-align: center;
+    border-top: 5px solid #ff00dd;
+
+
+}
+
+.logo-rodape{
+    padding: 100px;
+    
+}
+.agencia{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 34px;
+}
+
